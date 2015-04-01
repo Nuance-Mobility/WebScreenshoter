@@ -1,0 +1,12 @@
+{
+  "name": "dashboard-reporter",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Send e-mail reports based on Grafana and Kibana dashboards",
+  "author": "Brice Argenson <brice.argenson@nuance.com>",
+  "dependencies": {
+    "express": "4.12.0",
+    "nodegit-promise": "1.0.0",
+    "phantom": "0.7.2"
+  }
+}
