@@ -10,4 +10,4 @@ RUN         cd /src && npm install
 
 EXPOSE      8080
 
-COPY        supervisor  /etc/supervisor/conf.d
+ENTRYPOINT  [ "nodejs", "/src/index.js" ]
