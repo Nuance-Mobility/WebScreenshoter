@@ -1,4 +1,5 @@
-FROM        nuancemobility/ubuntu-base:14.04
+FROM        nuancemobility/ubuntu-base:16.10
+MAINTAINER  sspcm <mobility-sspcm@nuance.com>
 
 RUN         apt-get update -y && \
             apt-get install -y npm phantomjs && \
